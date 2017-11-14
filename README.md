@@ -12,7 +12,7 @@ O template é incluido da seguinte forma:
 \documentclass[nome da fonte]{uninove-ppgi}
 ```
 
-Atualmente são suportadas as fontes **courier** e **times**. Junto com o template são incluidos diversos pacotes. Consulte o source para mais informações.
+Atualmente são suportadas as fontes **courier** e **times**. Junto com o template são incluidos diversos pacotes. Consulte o [source](https://github.com/gobber/uninove-ppgi-latex/blob/master/uninove-ppgi.cls) para mais informações.
 
 # Comandos
 
@@ -155,7 +155,7 @@ sh ./clean.sh
 
 # Autor
 
-Podem me enviar um e-mail se houver alguma duvida.
+Podem me enviar um e-mail se houver alguma dúvida.
 
 * **Charles Gobber** - charles26f@gmail.com
 
