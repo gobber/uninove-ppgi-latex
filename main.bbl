@@ -1,0 +1,20 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\newcommand{\titleset}[1]{\textbf{#1}}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.6 }
+
+\bibitem[Alves, Hashimoto e Marcotegui 2017]{alves:article:2017}
+\abntrefinfo{Alves, Hashimoto e Marcotegui}{ALVES; HASHIMOTO; MARCOTEGUI}{2017}
+{ALVES, W.~A.; HASHIMOTO, R.~F.; MARCOTEGUI, B. \titleset{Ultimate levelings}.
+\emph{Computer Vision and Image Understanding}, 2017.
+ISSN 1077-3142.}
+
+\bibitem[Lipschutz 1971]{seymor:book:1971}
+\abntrefinfo{Lipschutz}{LIPSCHUTZ}{1971}
+{LIPSCHUTZ, S. \emph{\titleset{Topologia geral}}. [S.l.]: MCGraw-Hill do
+  Brasil, 1971.}
+
+\end{thebibliography}
