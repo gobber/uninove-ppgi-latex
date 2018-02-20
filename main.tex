@@ -1,4 +1,3 @@
-
 % configuração da fonte, pode ser courier ou times
 
 \documentclass[courier]{uninove-ppgi}
@@ -57,9 +56,14 @@ Bla bla bla
 \tableofcontents 
 \thispagestyle{empty}
 		   
-% lista de figuras
+% Lista de figuras
 
 \listoffigures
+\thispagestyle{empty}
+
+% Lista de algoritmos
+
+\listofalgorithms
 \thispagestyle{empty}
 
 % lista de abreviaturas (não colocar espaçamentos adicionais, pois eles contam dentro do environment)
@@ -145,6 +149,24 @@ Figuras também estão configuradas pela norma ABNT, a legenda é centralizada e
 \end{figure}
 
 As citações podem ser feitas de duas formas: {\color{red}$\backslash$citeonline}\{chave da citação\} = \citeonline{seymor:book:1971} e {\color{red}$\backslash$cite}\{chave da citação\} = \cite{seymor:book:1971}. Note que, nas referências bibliográficas o título está em negrito, de acordo com a norma ABNT 6023, para este efeito é necessário incluir a entrada no arquivo bibtex (refs.bib).
+
+Exemplo simples de pseudocódigo utilizando o pacote {\color{red}algorithm2e} configurado para língua portuguesa:
+
+% controla identação
+\begin{algorithm}[H]
+\SetAlgoLined
+\Entrada{$S,\eta, U$} 
+\Saida{Número esperado de nós atingidos}
+\Inicio{
+	$\sigma(S) = 0$ \\
+\Para{cada $u \in S$}{
+	$\sigma(S)\leftarrow \sigma(S)+\textsc{Backtrack}(u,\eta,W,U)$\\
+}
+}
+\Retorna{$\sigma(S)$}
+\label{alg1}
+\caption{\textsc{Esperança}}
+\end{algorithm}
 
 % Incluindo bibliografia
 

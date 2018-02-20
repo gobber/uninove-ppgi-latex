@@ -1,10 +1,10 @@
 \select@language {brazil}
 \contentsline {chapter}{Lista de Figuras}{6}{chapter*.4}
-\contentsline {chapter}{Lista de Abreviaturas}{7}{chapter*.5}
-\contentsline {chapter}{Lista de S\IeC {\'\i }mbolos}{8}{chapter*.6}
-\contentsline {chapter}{\numberline {1}Exemplo de cap\IeC {\'\i }tulo}{9}{chapter.1}
-\contentsline {section}{\numberline {1.1}Exemplo de se\IeC {\c c}\IeC {\~a}o}{9}{section.1.1}
-\contentsline {subsection}{\numberline {1.1.1}Exemplo de subse\IeC {\c c}\IeC {\~a}o}{9}{subsection.1.1.1}
-\contentsline {subsubsection}{\numberline {1.1.1.1}Exemplo de subsubse\IeC {\c c}\IeC {\~a}o}{9}{subsubsection.1.1.1.1}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{11}{chapter*.8}
+\contentsline {chapter}{Lista de Abreviaturas}{8}{chapter*.6}
+\contentsline {chapter}{Lista de S\IeC {\'\i }mbolos}{9}{chapter*.7}
+\contentsline {chapter}{\numberline {1}Exemplo de cap\IeC {\'\i }tulo}{10}{chapter.1}
+\contentsline {section}{\numberline {1.1}Exemplo de se\IeC {\c c}\IeC {\~a}o}{10}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Exemplo de subse\IeC {\c c}\IeC {\~a}o}{10}{subsection.1.1.1}
+\contentsline {subsubsection}{\numberline {1.1.1.1}Exemplo de subsubse\IeC {\c c}\IeC {\~a}o}{10}{subsubsection.1.1.1.1}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{12}{chapter*.9}
 \contentsfinish 

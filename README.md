@@ -8,7 +8,7 @@ Este é um template LaTeX para teses e disssertações desenvolvido para o PPGI 
 
 O template é incluido da seguinte forma:
 
-```
+```Tex
 \documentclass[nome da fonte]{uninove-ppgi}
 ```
 
@@ -22,7 +22,7 @@ O pacote provê diversos comandos para as mais diversas tarefas para contrução
 
 Para gerar a capa é necessário antes carregar as seguintes informações:
 
-```
+```Tex
 \Universidade{Nome da universidade}
 \Programa{Nome do programa}
 \Autor{Nome do autor}
@@ -35,20 +35,21 @@ Para gerar a capa é necessário antes carregar as seguintes informações:
 
 Basta posteriormente chamar o seguinte comando para gerar a capa:
 
-```
+```Tex
 \capa
 ```
 
 Com as mesmas informações podemos gerar a folha de rosto:
 
-```
+```Tex
 \folharosto
 ```
 
 ## Agradecimentos
 
 Podemos escrever agradecimentos por meio do seguinte *environment*:
-```
+
+```Tex
 \begin{agradecimentos}
 
    Conteúdo
@@ -60,13 +61,13 @@ Podemos escrever agradecimentos por meio do seguinte *environment*:
 
 Para gerar o resumo em português primeiro passamos as palavras chave:
 
-```
+```Tex
 \PalavrasChave{Palavra1, Palavra2,...,PalavraN}
 ```
 
 Posteriormente fazemos a chamada do seguinte *environment* que já adiciona as palavras chave configuradas acima:
 
-```
+```Tex
 \begin{resumo}
 
    Resumo...	
@@ -76,13 +77,13 @@ Posteriormente fazemos a chamada do seguinte *environment* que já adiciona as p
 
 Para gerar o resumo em inglês passamos as palavras chave:
 
-```
+```Tex
 \KeyWords{Word1, Word2,...,WordN}
 ```
 
 E então fazemos a chamda do seguinte *environment* que já adiciona as palavras chave em inglês configuradas acima:
 
-```
+```Tex
 \begin{abstract}
 
    Content...
@@ -94,7 +95,7 @@ E então fazemos a chamda do seguinte *environment* que já adiciona as palavras
 
 A lista de abreviaturas é gerada internamente com o uso do *environment tabular*. É necessário incluir um caracter % antes da chamada para evitar edentação automática.
 
-```
+```Tex
 % Sempre colocar o símbolo percentual em frente da chamada do *environment*
 % Não adicionar espaçamento vertical depois da chamada do *environment*
 % Não incluir \\ na última abreviatura
@@ -110,7 +111,7 @@ A lista de abreviaturas é gerada internamente com o uso do *environment tabular
 
 Analogamente a lista de abreviaturas podemos gerar uma lista de símbolos. Em geral queremos agrupar símbolos por tipo, por isto temos um comando para gerar cada lista. Note que, também é necessário incluir um caracter % antes da chamada para evitar edentação automática.
 
-```
+```Tex
 % Sempre colocar o símbolo percentual em frente da chamada do *environment*
 % Não adicionar espaçamento vertical depois da chamada do *environment*
 % Não incluir \\ no último símbolo
@@ -123,7 +124,7 @@ Analogamente a lista de abreviaturas podemos gerar uma lista de símbolos. Em ge
 
 Com auxilio do comando acima criamos as listas de símbolos com o seguinte *environment*:
 
-```
+```Tex
 % Sempre colocar o símbolo percentual em frente da chamada do *environment*
 % Não adicionar espaçamento vertical depois da chamada do *environment*
 

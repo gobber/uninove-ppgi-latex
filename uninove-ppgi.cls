@@ -14,7 +14,6 @@
 % ----------------------------------------- % 
 
 \NeedsTeXFormat{LaTeX2e}
-
 \LoadClass[12pt,oneside,a4paper]{book}
 
 % ----------------------------------------- % 
@@ -37,10 +36,12 @@
 
 \DeclareOption{courier}{\courier@fonttrue \times@fontfalse}
 
+% operação default de fonte
 \ExecuteOptions{courier}
 
 \ProcessOptions\relax
 
+% opção de fonte (courier ou times)
 \ifcourier@font
 
 	\RequirePackage{courier}
@@ -90,12 +91,20 @@
 \RequirePackage{verbatim} % comentários longos por meio do enviromment comment
 \RequirePackage{enumerate} % modificar estilo do ambiente enumerate
 \RequirePackage{tabularx}
+\RequirePackage[portuguese, ruled, vlined, linesnumbered]{algorithm2e} % algoritmos e pseudocódigos
+\RequirePackage{subcaption}
 
 % ----------------------------------------- % 
 %
 %	Algumas configurações de pacotes e outros 
 %
 % ----------------------------------------- % 
+
+%
+%	{algorithm2e}
+%
+
+\SetInd{0.5cm}{0.1cm}
 
 %
 %	{tikz}
@@ -106,12 +115,12 @@
 %
 % 	{titlesec}
 %
+
 \setcounter{tocdepth}{4}
 \setcounter{secnumdepth}{4} % for subsubsection
 
 \titleformat{\chapter}[display] 
 		{\normalfont\scshape}
-		%{\thechapter}
 		{\titlerule\vspace{6pt}\filleft\chaptertitlename~\thechapter}
 		{0pt}
 		{\Large\filleft}
@@ -163,7 +172,6 @@
 \renewcommand{\headrulewidth}{0pt} 
 \renewcommand{\footrulewidth}{0pt}
 
-%\fancyhead[L]{\rightmark}
 \fancyhead[L]{\leftmark}
 \fancyhead[R]{\thepage}
 
@@ -196,12 +204,6 @@
 	{\noindent \textbf{Prova:}}
 	{}
 
-\newtheorem{algorithm}{Algoritmo}[chapter]
-
-\newenvironment{algoritmo}
-	{\begin{algorithm}}
-	{\end{algorithm}}
-
 \newtheorem{theorem}{Teorema}[chapter]
 
 \newenvironment{teorema}[1]
@@ -213,6 +215,7 @@
 %
 
 \DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\argmax}{arg\,max}
 
 %
 %	Path de imagens
@@ -465,7 +468,6 @@
 	\thispagestyle{empty}
 	\addcontentsline{toc}{chapter}{Lista de Símbolos}
 	\markboth{\MakeUppercase{Lista de Símbolos}}{\MakeUppercase{Lista de Símbolos}}}
-	%\lhead{\MakeUppercase{Lista de Símbolos}}}
 	{}
 
 % ----------------------------------------- %
