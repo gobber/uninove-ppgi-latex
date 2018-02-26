@@ -1,6 +1,6 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.3)  15 NOV 2017 17:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.3)  26 FEB 2018 16:35
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
  %&-line parsing enabled.
 **main.tex
 (./main.tex
@@ -1443,6 +1443,11 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 \algocf@algoframe=\box77
 \algocf@algobox=\box78
 )
+(/usr/local/texlive/2017/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
+\c@subfigure=\count190
+\c@subtable=\count191
+)
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibraryshapes.code.tex
 File: tikzlibraryshapes.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
@@ -1513,10 +1518,9 @@ File: tikzlibraryfit.code.tex 2013/07/12 v3.0.1a (rcs-revision 1.5)
 s/tikzlibrarytrees.code.tex
 File: tikzlibrarytrees.code.tex 2008/02/24 v3.0.1a (rcs-revision 1.2)
 )
-\c@definition=\count190
-\c@proposition=\count191
-\c@algo=\count192
-\c@theorem=\count193
+\c@definition=\count192
+\c@proposition=\count193
+\c@theorem=\count194
 ) (./main.aux)
 \openout1 = `main.aux'.
 
@@ -1537,16 +1541,16 @@ LaTeX Font Info:    ... okay on input line 9.
 
 (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count194
+\scratchcounter=\count195
 \scratchdimen=\dimen292
 \scratchbox=\box99
-\nofMPsegments=\count195
-\nofMParguments=\count196
+\nofMPsegments=\count196
+\nofMParguments=\count197
 \everyMPshowfont=\toks56
-\MPscratchCnt=\count197
+\MPscratchCnt=\count198
 \MPscratchDim=\dimen293
-\MPnumerator=\count198
-\makeMPintoPDFobject=\count199
+\MPnumerator=\count199
+\makeMPintoPDFobject=\count266
 \everyMPtoPDFconversion=\toks57
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1565,7 +1569,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count266
+\c@lstlisting=\count267
 
 babelbib: Set bibliography fall-back language to brazil
 (/usr/local/texlive/2017/texmf-dist/tex/latex/babelbib/portuguese.bdf
@@ -1622,7 +1626,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count267
+\c@section@level=\count268
 )
 LaTeX Info: Redefining \ref on input line 9.
 LaTeX Info: Redefining \pageref on input line 9.
@@ -1793,10 +1797,10 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 175.
  ) 
 Here is how much of TeX's memory you used:
- 37150 strings out of 492990
- 847229 string characters out of 6132621
- 1082108 words of memory out of 5000000
- 39977 multiletter control sequences out of 15000+600000
+ 37192 strings out of 492990
+ 848003 string characters out of 6132621
+ 1083320 words of memory out of 5000000
+ 40017 multiletter control sequences out of 15000+600000
  21765 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,16n,98p,747b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
