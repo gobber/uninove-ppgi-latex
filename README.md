@@ -4,6 +4,12 @@ Este é um template LaTeX para teses e disssertações desenvolvido para o PPGI 
 
 * [http://latex-exemplo.blogspot.com.br/2015/11/modelo-latex-para-dissertacoes-e-teses.html](http://latex-exemplo.blogspot.com.br/2015/11/modelo-latex-para-dissertacoes-e-teses.html)
 
+Observação: Sempre olhar a seção de novidades.
+
+# Novidades
+
+- Incluído um arquivo **clean.bat** para limpar arquivos temporários do LateX. É recomendável rodar esse arquivo toda vez que você incluir novas referências no seu arquivo *.bib*, pois o cash do bibtex as vezes não atualiza sozinho e ele não adiciona a novas referências.
+
 # Incluindo o template
 
 O template é incluido da seguinte forma:
@@ -153,6 +159,8 @@ Dentro do exemplo é fornecido um arquivo de *shell* linux **clean.sh** para exc
 # chamar o arquivo pelo terminal
 sh ./clean.sh
 ```
+
+Para usuários *windows* existe um arquivo **clean.bat** que faz o mesmo papel.
 
 # Autor
 

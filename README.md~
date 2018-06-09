@@ -4,6 +4,12 @@ Este é um template LaTeX para teses e disssertações desenvolvido para o PPGI 
 
 * [http://latex-exemplo.blogspot.com.br/2015/11/modelo-latex-para-dissertacoes-e-teses.html](http://latex-exemplo.blogspot.com.br/2015/11/modelo-latex-para-dissertacoes-e-teses.html)
 
+Observação: Sempre olhar a seção de novidades.
+
+# Novidades
+
+- Incluído um arquivo **clean.bat** para limpar arquivos temporários do LateX. É recomendável rodar esse arquivo toda vez que você incluir novas referências no seu arquivo *.bib*, pois, o cash do bibtex as vezes não atualiza sozinho e ele não adiciona a novas referências.
+
 # Incluindo o template
 
 O template é incluido da seguinte forma:
@@ -61,13 +67,13 @@ Podemos escrever agradecimentos por meio do seguinte *environment*:
 
 Para gerar o resumo em português primeiro passamos as palavras chave:
 
-```
+```Tex
 \PalavrasChave{Palavra1, Palavra2,...,PalavraN}
 ```
 
 Posteriormente fazemos a chamada do seguinte *environment* que já adiciona as palavras chave configuradas acima:
 
-```
+```Tex
 \begin{resumo}
 
    Resumo...	
@@ -77,13 +83,13 @@ Posteriormente fazemos a chamada do seguinte *environment* que já adiciona as p
 
 Para gerar o resumo em inglês passamos as palavras chave:
 
-```
+```Tex
 \KeyWords{Word1, Word2,...,WordN}
 ```
 
 E então fazemos a chamda do seguinte *environment* que já adiciona as palavras chave em inglês configuradas acima:
 
-```
+```Tex
 \begin{abstract}
 
    Content...
@@ -95,7 +101,7 @@ E então fazemos a chamda do seguinte *environment* que já adiciona as palavras
 
 A lista de abreviaturas é gerada internamente com o uso do *environment tabular*. É necessário incluir um caracter % antes da chamada para evitar edentação automática.
 
-```
+```Tex
 % Sempre colocar o símbolo percentual em frente da chamada do *environment*
 % Não adicionar espaçamento vertical depois da chamada do *environment*
 % Não incluir \\ na última abreviatura
@@ -111,7 +117,7 @@ A lista de abreviaturas é gerada internamente com o uso do *environment tabular
 
 Analogamente a lista de abreviaturas podemos gerar uma lista de símbolos. Em geral queremos agrupar símbolos por tipo, por isto temos um comando para gerar cada lista. Note que, também é necessário incluir um caracter % antes da chamada para evitar edentação automática.
 
-```
+```Tex
 % Sempre colocar o símbolo percentual em frente da chamada do *environment*
 % Não adicionar espaçamento vertical depois da chamada do *environment*
 % Não incluir \\ no último símbolo
@@ -124,7 +130,7 @@ Analogamente a lista de abreviaturas podemos gerar uma lista de símbolos. Em ge
 
 Com auxilio do comando acima criamos as listas de símbolos com o seguinte *environment*:
 
-```
+```Tex
 % Sempre colocar o símbolo percentual em frente da chamada do *environment*
 % Não adicionar espaçamento vertical depois da chamada do *environment*
 
@@ -153,6 +159,8 @@ Dentro do exemplo é fornecido um arquivo de *shell* linux **clean.sh** para exc
 # chamar o arquivo pelo terminal
 sh ./clean.sh
 ```
+
+Para usuários *windows* existe um arquivo **clean.bat** que faz o mesmo papel.
 
 # Autor
 
