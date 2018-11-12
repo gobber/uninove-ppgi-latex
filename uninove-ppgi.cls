@@ -76,7 +76,7 @@
 \RequirePackage[hyphens,spaces,obeyspaces]{url}
 \RequirePackage[pdftex,plainpages=false,pdfpagelabels,pagebackref,colorlinks=true,citecolor=DarkGreen,linkcolor=NavyBlue,urlcolor=DarkRed,filecolor=green,bookmarksopen=true]{hyperref} % links coloridos
 \RequirePackage[all]{hypcap} % soluciona o problema com o hyperref e capitulos   
-\RequirePackage[alf]{abntex2cite} % Pacote para citações no padrão abnt 6023 
+\RequirePackage[alf, abnt-etal-list=0]{abntex2cite} % Pacote para citações no padrão abnt 6023 
 \RequirePackage{amssymb} % matemática
 \RequirePackage{amsmath} % matemática
 \RequirePackage{amsthm} % matemática

@@ -1,4 +1,4 @@
-\select@language {brazil}
+\babel@toc {brazil}{}
 \contentsline {chapter}{Lista de Figuras}{6}{chapter*.4}
 \contentsline {chapter}{Lista de Abreviaturas}{8}{chapter*.6}
 \contentsline {chapter}{Lista de S\IeC {\'\i }mbolos}{9}{chapter*.7}

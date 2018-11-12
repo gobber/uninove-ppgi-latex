@@ -6,9 +6,10 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.6 }
 
-\bibitem[Alves, Hashimoto e Marcotegui 2017]{alves:article:2017}
-\abntrefinfo{Alves, Hashimoto e Marcotegui}{ALVES; HASHIMOTO; MARCOTEGUI}{2017}
-{ALVES, W.~A.; HASHIMOTO, R.~F.; MARCOTEGUI, B. \titleset{Ultimate levelings}.
+\bibitem[Alves et al. 2017]{alves:article:2017}
+\abntrefinfo{Alves et al.}{ALVES et al.}{2017}
+{ALVES, W.~A.; HASHIMOTO, R.~F.; MARCOTEGUI, B.; MARCOTEGUI, B.; MARCOTEGUI,
+  B.; MARCOTEGUI, B. \titleset{Ultimate levelings}.
 \emph{Computer Vision and Image Understanding}, 2017.
 ISSN 1077-3142.}
 
